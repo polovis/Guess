@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alegreya Sans', 'Pacifico', cursive, sans-serif, Arial; }
+
+body {
+  background-color: darkolivegreen;
+  height: 100vh; }
+
+#app {
+  margin: 0 auto; }
+
+.main {
+  width: 600px;
+  margin: 50px auto;
+  margin-top: 5px; }
+
+.title {
+  width: 470px;
+  height: 70px;
+  background-color: #eadf95;
+  border-radius: 25px;
+  margin-top: 5px;
+  position: relative;
+  font-size: 40px;
+  text-align: center;
+  line-height: 170%; }
+
+.baseColor, .answerDots {
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px; }
+
+.inline {
+  display: inline-block; }
+
+.block {
+  display: block; }
+
+.answer {
+  border-radius: 50%;
+  border: 2px solid rgba(36, 31, 1, 0.55);
+  display: inline-block;
+  margin: 3px;
+  width: 25px;
+  height: 25px; }
+
+.tipBlock {
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  position: absolute;
+  right: 90px; }
+
+.roundBlock {
+  width: 470px;
+  height: 70px;
+  background-color: #eadf95;
+  border-radius: 25px;
+  margin-top: 5px;
+  position: relative; }
+
+ul > li {
+  position: relative; }
+
+ul > li > ul {
+  display: none;
+  position: absolute;
+  left: -5px;
+  top: 50px;
+  list-style: none;
+  width: 400px;
+  margin: 2px; }
+
+ul > li > ul > li {
+  margin: 2px !important; }
+
+.none {
+  display: none; }
+
+.randomizeButtom {
+  border-radius: 30px;
+  display: inline-block;
+  width: 80px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  outline: none; }
+
+.questionMark {
+  line-height: 185%;
+  font-size: 25px;
+  text-align: center; }
+
+.checkButton {
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  outline: none; }
+
+.winAlert {
+  margin: 250px 150px;
+  background-color: #d3d3d373;
+  text-align: center;
+  line-height: 200%;
+  border-radius: 25px;
+  width: 550px;
+  font-size: 70px;
+  position: absolute;
+  top: -120px;
+  left: 310px;
+  z-index: 99; }
+
+@keyframes bounce {
+  0% {
+    width: 50px;
+    height: 50px; }
+  50% {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -5px; }
+  100% {
+    width: 50px;
+    height: 50px; } }
+
+.startNewGame1 {
+  right: 95px;
+  font-size: 12px;
+  outline: none;
+  animation-name: bounce;
+  animation-duration: infinite;
+  animation-play-state: paused; }
+
+.startNewGame {
+  right: 95px;
+  font-size: 12px;
+  outline: none; }
+
+.darkred {
+  background-image: radial-gradient(circle, darkred, black); }
+
+.darkorange {
+  background-image: radial-gradient(circle, darkorange, black); }
+
+.green {
+  background-image: radial-gradient(circle, green, black); }
+
+.darkblue {
+  background-image: radial-gradient(circle, darkblue, black); }
+
+.yellow {
+  background-image: radial-gradient(circle, yellow, black); }
+
+.purple {
+  background-image: radial-gradient(circle, purple, black); }
+
+.gray {
+  background-image: radial-gradient(circle, gray, black); }
